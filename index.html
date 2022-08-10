@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+      <div class="slides">
+        <section data-background-image="./assets/next-js.png" 
+        	data-background-repeat="no-repeat"	data-background-size="100%">
+				</section>
+				<section>
+					<section data-background-image="./assets/nextjs-thumb.png" 
+        		data-background-repeat="no-repeat"	data-background-size="90%">
+					</section>
+					<section data-background-image="./assets/f2fae6890ee0ee0360f9c4a5c8e5c539.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+					<section data-background-image="./assets/9863d48732c94f6b6a7ba4310410f396.jpg" 
+        		data-background-repeat="no-repeat"	data-background-size="70%">
+					</section>
+				</section>
+				<section>
+						<p class="fragment highlight-current-red">User Interface</p>
+						<p class="fragment highlight-current-red">Routing</p>
+						<p class="fragment highlight-current-red">Data Fetching</p>
+						<p class="fragment highlight-current-red">Rendering</p>
+						<p class="fragment highlight-current-red">Integrations</p>
+						<p class="fragment highlight-current-red">Infrastructure</p>
+						<p class="fragment highlight-current-red">Performance</p>
+						<p class="fragment highlight-current-red">Scalability</p>
+				</section>
+				<section>
+					<p class="fragment highlight-current-red">User Interface</p>
+					<section data-background-image="./assets/user-interface.png" 
+        		data-background-repeat="no-repeat"	data-background-size="75%">
+					</section>
+					<section data-background-image="./assets/next-app.png" 
+        		data-background-repeat="no-repeat"	data-background-size="65%">
+					</section>
+				</section>
+				<section>
+					<section data-background-image="./assets/compiling.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+					<section data-background-image="./assets/minifying.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+					<section data-background-image="./assets/bundling.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+					<section data-background-image="./assets/code-splitting.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+				</section>
+				<section>
+					<p class="fragment highlight-current-red">Rendering</p>
+					<section data-background-image="./assets/client-server.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+					<section data-background-image="./assets/client-side-rendering.png" 
+        		data-background-repeat="no-repeat"	data-background-size="70%">
+					</section>
+					<section data-background-image="./assets/pre-rendering.png" 
+        		data-background-repeat="no-repeat"	data-background-size="70%">
+					</section>
+					<section data-background-image="./assets/SSG.png" 
+        		data-background-repeat="no-repeat"	data-background-size="50%">
+					</section>
+					<section data-background-image="./assets/cdn.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+					<section data-background-image="./assets/static and server.png" 
+        		data-background-repeat="no-repeat"	data-background-size="80%">
+					</section>
+					<section data-background-image="./assets/static-generation-with-data.png" 
+        		data-background-repeat="no-repeat"	data-background-size="50%">
+					</section>
+					<section data-background-image="./assets/per-page-basis.png" 
+					data-background-repeat="no-repeat"	data-background-size="50%">
+				</section>
+				</section>
+				<section>
+					<p class="fragment highlight-current-red">Routing</p>
+					<section data-background-image="./assets/nextjs_routing.png" 
+        		data-background-repeat="no-repeat"	data-background-size="50%">
+					</section>
+					<section data-background-image="./assets/example.png" 
+        		data-background-repeat="no-repeat"	data-background-size="90%">
+					</section>
+					<section data-background-image="./assets/page-path-external-data.png" 
+        		data-background-repeat="no-repeat"	data-background-size="60%">
+					</section>
+					<section>
+						<pre><code data-trim data-noescape>
+							import Layout from '../../components/layout';
+
+							export default function Post() {
+								return < Layout >...< Layout/>;
+							}
+						</code></pre>
+					</section>
+				</section>
+      </div>
+    </div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
